@@ -3,7 +3,7 @@ public abstract class Coffee {
     private int kolWater;
     TypeCoffee typeCoffee;
 
-    public Coffee( int kolMilk, int kolWater, TypeCoffee typeCoffee) {
+    public Coffee(int kolMilk, int kolWater, TypeCoffee typeCoffee) {
         this.kolMilk = kolMilk;
         this.kolWater = kolWater;
         this.typeCoffee = typeCoffee;
@@ -37,7 +37,7 @@ public abstract class Coffee {
     }
 
     @Override
-    public  String toString() {
+    public String toString() {
         return "Coffee{" +
                 "kolMilk=" + kolMilk +
                 ", kolWater=" + kolWater +
